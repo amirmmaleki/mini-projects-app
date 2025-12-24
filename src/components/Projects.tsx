@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { Project } from "../types/Project";
+import type { Project } from "../types/Project"; 
 
 export default function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);

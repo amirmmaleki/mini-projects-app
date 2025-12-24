@@ -1,8 +1,8 @@
-// src/components/ProjectDetail.tsx
+
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import axios from "axios";
-import { Project } from "../types/Project";
+import type { Project } from "../types/Project"; 
 
 export default function ProjectDetail() {
   const { id } = useParams();
